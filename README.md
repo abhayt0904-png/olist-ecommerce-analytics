@@ -283,11 +283,11 @@ The dataset's delivered-purchase activity ends on August 29, 2018. The earliest 
 6. Run the validation queries in the setup scripts and confirm that row counts and relationships match the documented results.
 7. Run the analysis scripts:
 
-   * `08\_revenue\_analysis.sql`
-   * `09\_payment\_reconciliation.sql`
-   * `10\_customer\_retention.sql`
-   * `11\_rfm\_segmentation.sql`
-   * `12\_delivery\_review\_analysis.sql`
+   * 08\_revenue\_analysiss.sql
+   * 09\_payment\_reconciliations.sql
+   * 10\_customer\_retentions.sql
+   * 11\_rfm\_segmentations.sql
+   * 12\_delivery\_review\_analysiss.sql
 
 The CSV loading was performed through pgAdmin rather than automated by the SQL scripts. The setup scripts are intended for initial table creation; do not assume they can be rerun unchanged against an already-created database because `CREATE TABLE` and constraint statements may fail when the objects already exist.
 
