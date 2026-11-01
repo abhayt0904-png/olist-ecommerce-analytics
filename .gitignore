@@ -1,0 +1,13 @@
+
+# Original Olist CSV files - keep these on the local computer
+data/raw/
+
+# PostgreSQL backup files
+*.dump
+*.backup
+*.bak
+*.sql.gz
+
+# Operating system files
+.DS_Store
+Thumbs.db
