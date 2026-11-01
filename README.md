@@ -52,10 +52,6 @@ These grain differences matter. Joining raw item rows directly to raw payment ro
 
 
 
-\## 4. Project structure
-
-
-
 The repository contains the following SQL scripts and project documentation:
 
 
