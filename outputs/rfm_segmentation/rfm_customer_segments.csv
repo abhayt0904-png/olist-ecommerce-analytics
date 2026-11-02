@@ -1,0 +1,8 @@
+"customer_segment","customer_count","customer_percentage","average_recency_days","average_frequency","average_monetary_value_brl","total_monetary_value_brl","monetary_contribution_percentage"
+"Recent One-Time Buyers",36345,38.93,140.45,1.00,140.37,5101677.71,38.59
+"Hibernating One-Time Buyers",36094,38.66,445.36,1.00,139.64,5040184.26,38.12
+"One-Time Customers Needing Attention",18118,19.41,270.63,1.00,129.77,2351227.39,17.78
+"Potential Loyalists",1181,1.27,139.13,2.08,257.27,303834.46,2.30
+"Lapsed Repeat Customers",982,1.05,432.52,2.08,246.65,242211.41,1.83
+"Repeat Customers Needing Attention",605,0.65,268.13,2.09,261.78,158379.18,1.20
+"Champions",33,0.04,135.42,4.94,726.78,23983.70,0.18
