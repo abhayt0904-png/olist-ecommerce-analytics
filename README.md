@@ -154,60 +154,34 @@ olist-ecommerce-analytics/
 
 
 
-\### Visual Insights
 
-
+### Visual Insights
 
 The following charts summarise important findings from the analysis.
 
-
-
-\#### 1. Monthly Delivered GMV
-
-
+#### 1. Monthly Delivered GMV
 
 Shows the monthly trend in delivered merchandise value, excluding freight charges.
 
+![Monthly Delivered GMV](visuals/monthly_delivered_gmv.png)
 
-
-!\[Monthly Delivered GMV](visuals/monthly\_delivered\_gmv.png)
-
-
-
-\#### 2. Customer Purchase Behaviour
-
-
+#### 2. Customer Purchase Behaviour
 
 Compares one-time customers with customers who made two or more delivered purchases.
 
+![Customer Purchase Behaviour](visuals/customer_purchase_behaviour.png)
 
-
-!\[Customer Purchase Behaviour](visuals/customer\_purchase\_behaviour.png)
-
-
-
-\#### 3. RFM Customer Segmentation
-
-
+#### 3. RFM Customer Segmentation
 
 Shows the distribution of customers across the seven populated RFM segments, based on the historical October 18, 2018 snapshot.
 
+![RFM Customer Segmentation](visuals/rfm_customer_segmentation.png)
 
-
-!\[RFM Customer Segmentation](visuals/rfm\_customer\_segmentation.png)
-
-
-
-\#### 4. Delivery Delay and Customer Satisfaction
-
-
+#### 4. Delivery Delay and Customer Satisfaction
 
 Compares average customer review scores across different delivery-delay categories. The results show an association, not proof of causation.
 
-
-
-!\[Delivery Delay and Customer Satisfaction](visuals/delivery\_delay\_customer\_satisfaction.png)
-
+![Delivery Delay and Customer Satisfaction](visuals/delivery_delay_customer_satisfaction.png)
 
 
 ## 5\. Tools and SQL skills used
