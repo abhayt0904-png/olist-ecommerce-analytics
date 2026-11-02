@@ -52,7 +52,7 @@ These grain differences matter. Joining raw item rows directly to raw payment ro
 
 
 
-The repository contains 12 SQL scripts and seven selected query-result CSV files.
+The repository contains 12 SQL scripts, seven selected PostgreSQL result exports and four visualisations.
 
 
 
@@ -63,8 +63,6 @@ olist-ecommerce-analytics/
 │
 
 ├── outputs/
-
-│   │
 
 │   ├── revenue\_analysis/
 
@@ -124,6 +122,18 @@ olist-ecommerce-analytics/
 
 │
 
+├── visuals/
+
+│   ├── monthly\_delivered\_gmv.png
+
+│   ├── customer\_purchase\_behaviour.png
+
+│   ├── rfm\_customer\_segmentation.png
+
+│   └── delivery\_delay\_customer\_satisfaction.png
+
+│
+
 ├── .gitignore
 
 └── README.md
@@ -136,11 +146,67 @@ olist-ecommerce-analytics/
 
 
 
-\- Original Olist CSV files are stored locally in `data/raw/`.
+\- Original Olist CSV files are stored locally in `data/raw/` and excluded from this GitHub repository using `.gitignore`.
 
-\- The `data/raw/` directory is excluded from this GitHub repository through `.gitignore`.
+\- The `outputs/` directory contains selected results exported directly from PostgreSQL.
 
-\- The `outputs/` directory contains selected results exported directly from PostgreSQL queries. These files provide examples of the analysis findings without requiring the reader to execute every query.
+\- The `visuals/` directory contains charts created using Excel from the actual SQL analysis results.
+
+
+
+\### Visual Insights
+
+
+
+The following charts summarise important findings from the analysis.
+
+
+
+\#### 1. Monthly Delivered GMV
+
+
+
+Shows the monthly trend in delivered merchandise value, excluding freight charges.
+
+
+
+!\[Monthly Delivered GMV](visuals/monthly\_delivered\_gmv.png)
+
+
+
+\#### 2. Customer Purchase Behaviour
+
+
+
+Compares one-time customers with customers who made two or more delivered purchases.
+
+
+
+!\[Customer Purchase Behaviour](visuals/customer\_purchase\_behaviour.png)
+
+
+
+\#### 3. RFM Customer Segmentation
+
+
+
+Shows the distribution of customers across the seven populated RFM segments, based on the historical October 18, 2018 snapshot.
+
+
+
+!\[RFM Customer Segmentation](visuals/rfm\_customer\_segmentation.png)
+
+
+
+\#### 4. Delivery Delay and Customer Satisfaction
+
+
+
+Compares average customer review scores across different delivery-delay categories. The results show an association, not proof of causation.
+
+
+
+!\[Delivery Delay and Customer Satisfaction](visuals/delivery\_delay\_customer\_satisfaction.png)
 
 ## 5\. Tools and SQL skills used
 
