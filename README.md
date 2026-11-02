@@ -208,6 +208,8 @@ Compares average customer review scores across different delivery-delay categori
 
 !\[Delivery Delay and Customer Satisfaction](visuals/delivery\_delay\_customer\_satisfaction.png)
 
+
+
 ## 5\. Tools and SQL skills used
 
 * **PostgreSQL:** relational database used to store and analyse the data.
