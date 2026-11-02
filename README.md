@@ -52,13 +52,47 @@ These grain differences matter. Joining raw item rows directly to raw payment ro
 
 
 
-The repository contains the following SQL scripts and project documentation:
+The repository contains 12 SQL scripts and seven selected query-result CSV files.
 
 
 
 ```text
 
 olist-ecommerce-analytics/
+
+│
+
+├── outputs/
+
+│   │
+
+│   ├── revenue\_analysis/
+
+│   │   └── monthly\_delivered\_revenue.csv
+
+│   │
+
+│   ├── customer\_retention/
+
+│   │   ├── repeat\_purchase\_summary.csv
+
+│   │   └── cohort\_retention\_matrix.csv
+
+│   │
+
+│   ├── rfm\_segmentation/
+
+│   │   └── rfm\_customer\_segments.csv
+
+│   │
+
+│   └── delivery\_review/
+
+│       ├── monthly\_delivery\_performance.csv
+
+│       ├── delivery\_performance\_vs\_review\_scores.csv
+
+│       └── delivery\_delay\_severity\_review\_analysis.csv
 
 │
 
@@ -98,13 +132,15 @@ olist-ecommerce-analytics/
 
 
 
-\*\*Local data and outputs:\*\*
+\*\*Local data:\*\*
 
 
 
-\- Original Olist CSV files are stored locally in `data/raw/` and excluded from this GitHub repository using `.gitignore`.
+\- Original Olist CSV files are stored locally in `data/raw/`.
 
-\- The `outputs/` folder is currently empty. Selected query exports and charts can be added there as the project is further documented.
+\- The `data/raw/` directory is excluded from this GitHub repository through `.gitignore`.
+
+\- The `outputs/` directory contains selected results exported directly from PostgreSQL queries. These files provide examples of the analysis findings without requiring the reader to execute every query.
 
 ## 5\. Tools and SQL skills used
 
